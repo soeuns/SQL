@@ -1,3 +1,6 @@
+-- https://www.hackerrank.com/challenges/african-cities/problem?isFullScreen=true
+-- African Cities
+
 SELECT CITY.NAME   -- CITY 테이블에서 NAME 필드 선택
 FROM CITY
     INNER JOIN COUNTRY ON CITY.COUNTRYCODE = COUNTRY.CODE
